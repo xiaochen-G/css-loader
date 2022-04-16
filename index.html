@@ -98,5 +98,36 @@
     </div>
 
     <script  type="module" src="./js/app.js"></script>
+    <script src="https://cdn.bootcss.com/sweetalert/2.1.0/sweetalert.min.js"></script>
+ 
+<script>
+ 
+swal('本站状态:稳定运行中','\n\n所有CSS加载动画均可免费复制使用，本站无视DDOS CC攻击，弟弟们别想着打死本站😜！','success'); function AddFavorite(title, url) {
+ 
+  try {
+ 
+      window.external.addFavorite(url, title);
+ 
+  }
+ 
+catch (e) {
+ 
+     try {
+ 
+       window.sidebar.addPanel(title, url,);
+ 
+    }
+ 
+     catch (e) {
+ 
+         alert("抱歉，您所使用的浏览器无法完成此操作。");
+ 
+     }
+ 
+  }
+ 
+}
+ 
+</script>
 </body>
 </html>
